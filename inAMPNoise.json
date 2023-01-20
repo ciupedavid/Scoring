@@ -1,0 +1,24 @@
+{
+"Nimble": [
+    {
+    "resistance_input": "1",
+	"capacitance_input": "1f",
+	"gain": "1",
+	"device": "AD620",
+    "current_date": "January 20, 2023",
+        "_comment": "The current date should be edited to today's date due to the fact that we're downloading Nimble and LTspice data name as the following example: LTspice November 22, 2022",
+    "downloads_path": "C:\\Users\\davciupe\\Downloads\\",
+        "_comment": "Chrome downloads the files on user's downloads folder. The script uses this path to move the files in a more convenient path",
+    "project_location": "C:\\Users\\davciupe\\PycharmProjects\\pythonProject\\",
+        "_comment": "Project location should be a path were we want to store the results after running the scrips",
+    "x_axis_min": "5",
+    "x_axis_max": "1.00E+07",
+    "y_axis_min": "-20",
+    "y_axis_max": "1.00E+02",
+        "_comment": "X and Y axis are used to set the min and max for the chart. They're also used for scoring",
+    "data_sheet": "Datasheet",
+    "gain_sheet": "G1",
+    "score_sheet_name": "G1 Score"
+    }
+]
+}
